@@ -1,29 +1,28 @@
 function basicTeenager(age) {
-age === 13,14,15,16,17,18,19
-if true {
-return "You are a teenager!" }
+if (age >= 13 && age <= 19) {
+return "You are a teenager!";
+}
 }
 
 function teenager(age) {
-  if (13<=19) {
-  return 'You are a teenager!' }
-else { return 'You are not a teenager'
+if (age >= 13 && age <= 19) {
+return "You are a teenager!"; }
+else { return "You are not a teenager";
 }
 }
 
 function ageChecker(age) {
-  if (13<=19) {
-return 'You are a teenager!'}
-else if  (12>=12) { return 'You are a kid'}
-else  (20<=20) { return 'You are a grownup'
+  if (age >= 13 && age <= 19) {
+return "You are a teenager!";
+} else if (age <= 12) { return 'You are a kid'; 
+} else { return 'You are a grownup';
 }
 }
 
 function ternaryTeenager(age) {
-  if (13, 14, 15, 16, 17, 18, 19)
-  return {
- 'You are a teenager' :
-'You are not a teenager'
+  if (age >= 13 && age <= 19) {
+  return 'You are a teenager'; }
+else { return 'You are not a teenager';
 }
 }
 
