@@ -1,5 +1,6 @@
 function basicTeenager(age) {
-if (13,14,15,16,17,18,19) {
+age === 13,14,15,16,17,18,19
+if true {
 return "You are a teenager!" }
 }
 
